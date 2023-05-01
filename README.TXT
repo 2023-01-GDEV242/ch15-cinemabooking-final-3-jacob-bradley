@@ -4,8 +4,10 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE: Cinema Booking - Crosbie
-PURPOSE OF PROJECT:
+
+PROJECT TITLE: Clone  Cinema Booking - Crosbie/Rispoli
+PURPOSE OF PROJECT: Final Assignment
+
 VERSION or DATE:
 HOW TO START THIS PROJECT:
 AUTHORS:
