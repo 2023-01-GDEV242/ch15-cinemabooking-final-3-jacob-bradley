@@ -6,7 +6,7 @@ all they need to know. The comments should usually include at least:
 
 PROJECT TITLE: Clone Booking
 PURPOSE OF PROJECT: Final Assignment
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+VERSION or DATE: Ver. 0.1.1
+HOW TO START THIS PROJECT: We just do it
+AUTHORS: Jacob, Bradley, and Crosbie(for examples)
+USER INSTRUCTIONS: WARNING!! Incomplete. Do not assume this program works!
