@@ -2,7 +2,7 @@
 /**
  * Write a description of class Jacob_Demo here.
  *
- * @author (your name)
+ * @author Jacob Rispoli
  * @version (a version number or a date)
  */
 public class Jacob_Demo
