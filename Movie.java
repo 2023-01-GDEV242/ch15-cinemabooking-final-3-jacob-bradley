@@ -8,20 +8,20 @@
 public class Movie {
     private String movieName;
     private String movieRD; //RD = ReleaseDate
-    private int runTime;
+    private double runTime;
     /**
      * Constructor for objects of class Movie
      */
     public Movie() {
         movieName = "Name";
         movieRD = "Date";
-        runTime = 2; //in hours
+        runTime = 2.5; //in hours
     }
     
-    public Movie(String movieName, String movieDate, int movieTime) {
+    public Movie(String movieName, String movieDate, double movieTime) {
         this.movieName = movieName;
         movieRD = movieDate;
-        runTime = movieTime;
+        runTime = movieTime; //in hours
     }
     public String getMovieName() {
         return movieName;
@@ -29,7 +29,7 @@ public class Movie {
     public String getMovieDate() {
         return movieRD;
     }
-    public int getRunTime() {
+    public double getRunTime() {
         return runTime;
     }
     public void changeDate(String movieDate) {
@@ -38,7 +38,7 @@ public class Movie {
     public void changeName(String movieName) {
         this.movieName = movieName;
     }
-    public void changeTime(int movieTime) {
+    public void changeTime(double movieTime) {
         runTime = movieTime;
     }
 }

@@ -26,7 +26,12 @@ public class Seat {
     public boolean isBooked() {
         return taken;
     }
-    public void bookSeat() {
+    public void bookSeat(Theater theater) {
+        theater.seatsInUse++;
         taken = true;
+    }
+    public void removeBooking(Theater theater) {
+        theater.seatsInUse++;
+        taken = false;
     }
 }

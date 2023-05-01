@@ -16,10 +16,23 @@ public class CinemaBookingSystem {
     public CinemaBookingSystem() {
         
     }
-    public void buyTicket(String buyerName, int numOfTick, Movie movie, Theater theater, ArrayList<Seat> seat) {
-        for(int i = 0; i < numOfTick; i++) {
-            Ticket ticket = new Ticket(buyerName, 12, seat.get(i), movie, theater);
-            ticket.printTicket();
+    public void buyTicket(String buyerName, int numOfTick, Movie movie, Theater theater) {
+        ArrayList<Seat> seat = theater.getSeats();
+        if(theater.isFull() == true) {
+            System.out.println("Sorry! That theater is already full!");
+        } else if(theater.seatsLeft() < numOfTick) { 
+            System.out.println("Sorry! That theater can't fit everybody!");
+        } else {
+            for(int i = 0; i < numOfTick; i++) {
+                if(seat.get(i).isBooked() == true) {
+                    System.out.println("This seat is taken!/nFixing!!");
+                    i++;
+                    numOfTick++;
+                } else {
+                    Ticket ticket = new Ticket(buyerName, seat.get(i), movie, theater);
+                    ticket.printTicket();
+                }
+            }
         }
     }
     public void addMovie(Movie movie) {
