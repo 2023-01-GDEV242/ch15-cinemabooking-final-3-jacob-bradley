@@ -13,8 +13,7 @@ public class Jacob_Demo
     /**
      * Constructor for objects of class Jacob_Demo
      */
-    public Jacob_Demo()
-    {
+    public Jacob_Demo() {
         // initialise instance variables
         x = 0;
     }
@@ -25,8 +24,7 @@ public class Jacob_Demo
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
-    {
+    public int sampleMethod(int y) {
         // put your code here
         return x + y;
     }
