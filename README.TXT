@@ -4,7 +4,7 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE: Clone Booking
+PROJECT TITLE: Cinema Booking Assignment
 PURPOSE OF PROJECT: Final Assignment
 VERSION or DATE: Ver. 0.1.1
 HOW TO START THIS PROJECT: We just do it
