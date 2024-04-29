@@ -8,9 +8,6 @@ import java.util.*;
 public class Theater {
     // instance variables - replace the example below with your own
     public String theaterName;
-    private int totalSeats;
-    public int seatsInUse;
-    public boolean full;
     ArrayList<Seat> seats = new ArrayList<Seat>();
     /**
      * Constructor for objects of class Theater
@@ -19,9 +16,8 @@ public class Theater {
         this.theaterName = theaterName;
         for(int i = 0; i < rows; i++) {
             for(int j = 0; j < columns; j++) {
-                Seat seat = new Seat(i+1, j+1);
+                Seat seat = new Seat(i, j);
                 seats.add(seat);
-                totalSeats++;
             }
         }
     }
@@ -34,20 +30,5 @@ public class Theater {
     }
     public String getTheaterName() {
         return theaterName;
-    }
-    public ArrayList<Seat> getSeats() {
-        return seats;
-    }
-    public int getTotal() {
-        return totalSeats;
-    }
-    public int seatsLeft() {
-        return totalSeats - seatsInUse;
-    }
-    public boolean isFull() {
-        if(totalSeats == seatsInUse) {
-            full = true;
-        }
-        return full;
     }
 }

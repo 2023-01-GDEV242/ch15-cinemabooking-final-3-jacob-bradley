@@ -20,16 +20,14 @@ dependency6.type=UsesDependency
 dependency7.from=CinemaBookingSystem
 dependency7.to=Ticket
 dependency7.type=UsesDependency
-dependency8.from=Seat
-dependency8.to=Theater
+dependency8.from=Theater
+dependency8.to=Seat
 dependency8.type=UsesDependency
-dependency9.from=Theater
-dependency9.to=Seat
-dependency9.type=UsesDependency
 editor.fx.0.height=737
-editor.fx.0.width=1085
-editor.fx.0.x=274
+editor.fx.0.width=1265
+editor.fx.0.x=94
 editor.fx.0.y=12
+<<<<<<< HEAD
 objectbench.height=139
 objectbench.width=826
 package.divider.horizontal=0.5502638522427441
@@ -42,6 +40,20 @@ package.frame.height=830
 package.frame.width=1550
 package.numDependencies=9
 package.numTargets=7
+=======
+objectbench.height=92
+objectbench.width=761
+package.divider.horizontal=0.6
+package.divider.vertical=0.7991214057507987
+package.editor.height=394
+package.editor.width=661
+package.editor.x=40
+package.editor.y=40
+package.frame.height=600
+package.frame.width=800
+package.numDependencies=8
+package.numTargets=6
+>>>>>>> parent of 729a196 (Improvements)
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -79,6 +91,8 @@ target4.width=120
 target4.x=310
 target4.y=320
 target5.height=70
+<<<<<<< HEAD
+<<<<<<< HEAD
 target5.name=makeMovie
 target5.showInterface=false
 target5.type=ClassTarget
@@ -98,3 +112,19 @@ target7.type=TextTarget
 target7.width=120
 target7.x=290
 target7.y=30
+=======
+=======
+>>>>>>> parent of 729a196 (Improvements)
+target5.name=CinemaBookingSystem
+target5.showInterface=false
+target5.type=ClassTarget
+target5.width=170
+target5.x=0
+target5.y=80
+target6.height=70
+target6.name=README.md
+target6.type=TextTarget
+target6.width=120
+target6.x=290
+target6.y=30
+>>>>>>> parent of 729a196 (Improvements)
